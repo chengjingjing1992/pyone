@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Api Test</h1>
 <p class='attribute'><strong>测试人员 : </strong> 卡卡</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-07-28 17:18:30</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.388895</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 9，通过 9，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-07-28 18:58:08</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.535024</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 8，通过 8，通过率= 100.00%</p>
 
 <p class='description'>测试描述</p>
 </div>
@@ -135,8 +135,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 9 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 9 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 8 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 8 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -157,16 +157,16 @@ function html_escape(s) {
 </tr>
 
 <tr class='passClass warning'>
-    <td>testFixtures.TestClass1</td>
-    <td class="text-center">2</td>
-    <td class="text-center">2</td>
+    <td>test_user_getinfo.TestUserGetInfo</td>
+    <td class="text-center">4</td>
+    <td class="text-center">4</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',4)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_B</div></td>
+    <td class='passCase'><div class='testcase'>test_b_user_getInfo</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
@@ -177,9 +177,8 @@ function html_escape(s) {
     <div id='div_pt1_1' class="collapse in">
     <pre>
     
-pt1_1: ... setUp ...
-测试用例b
-... tearDown ...
+pt1_1: &lt;class 'str'&gt;
+&lt;class 'int'&gt;
 
 
     </pre>
@@ -188,78 +187,24 @@ pt1_1: ... setUp ...
 </tr>
 
 <tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_a</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
-    <div id='div_pt1_2' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
-    <div id='div_pt1_2' class="collapse in">
-    <pre>
-    
-pt1_2: ... setUp ...
-测试用例a
-... tearDown ...
-
-
-    </pre>
-    </div>
-    </td>
+    <td class='passCase'><div class='testcase'>test_c_user_getUnreadMessageNum</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr class='passClass warning'>
-    <td>testFixtures.TestClass2</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
-</tr>
-
-<tr id='pt2_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_A</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
-    <div id='div_pt2_1' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
-    <div id='div_pt2_1' class="collapse in">
-    <pre>
-    
-pt2_1: 另一个测试类
-
-
-    </pre>
-    </div>
-    </td>
-</tr>
-
-<tr class='passClass warning'>
-    <td>test_user_getinfo.TestUserGetInfo</td>
-    <td class="text-center">2</td>
-    <td class="text-center">2</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c3',2)" class="detail" id='c3'>详细</a></td>
-</tr>
-
-<tr id='pt3_1' class='hiddenRow'>
+<tr id='pt1_3' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_b_user_getInfo</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
-    <div id='div_pt3_1' class="collapse">  -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  -->
 
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
-    <div id='div_pt3_1' class="collapse in">
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">
     <pre>
     
-pt3_1: &lt;class 'str'&gt;
+pt1_3: &lt;class 'str'&gt;
+&lt;class 'int'&gt;
 
 
     </pre>
@@ -267,24 +212,9 @@ pt3_1: &lt;class 'str'&gt;
     </td>
 </tr>
 
-<tr id='pt3_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_b_user_getInfo</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_pt3_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
-    <div id='div_pt3_2' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt3_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
-    <div id='div_pt3_2' class="collapse in">
-    <pre>
-    
-pt3_2: &lt;class 'str'&gt;
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_c_user_getUnreadMessageNum</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr class='passClass warning'>
@@ -293,27 +223,27 @@ pt3_2: &lt;class 'str'&gt;
     <td class="text-center">4</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c4',4)" class="detail" id='c4'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',4)" class="detail" id='c2'>详细</a></td>
 </tr>
 
-<tr id='pt4_1' class='hiddenRow'>
+<tr id='pt2_1' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_login_normal</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='pt4_2' class='hiddenRow'>
+<tr id='pt2_2' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_login_wrongPwd</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
-    <div id='div_pt4_2' class="collapse">  -->
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
 
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
-    <div id='div_pt4_2' class="collapse in">
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in">
     <pre>
     
-pt4_2: {"successful":false,"code":4,"IsWX":false,"data":null}
+pt2_2: {"successful":false,"code":4,"IsWX":false,"data":null}
 
 
     </pre>
@@ -321,24 +251,24 @@ pt4_2: {"successful":false,"code":4,"IsWX":false,"data":null}
     </td>
 </tr>
 
-<tr id='pt4_3' class='hiddenRow'>
+<tr id='pt2_3' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_login_normal</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='pt4_4' class='hiddenRow'>
+<tr id='pt2_4' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_login_wrongPwd</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
-    <div id='div_pt4_4' class="collapse">  -->
+    <button id='btn_pt2_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse">  -->
 
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
-    <div id='div_pt4_4' class="collapse in">
+    <button id='btn_pt2_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse in">
     <pre>
     
-pt4_4: {"successful":false,"code":4,"IsWX":false,"data":null}
+pt2_4: {"successful":false,"code":4,"IsWX":false,"data":null}
 
 
     </pre>
@@ -348,8 +278,8 @@ pt4_4: {"successful":false,"code":4,"IsWX":false,"data":null}
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>9</td>
-    <td>9</td>
+    <td>8</td>
+    <td>8</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>
