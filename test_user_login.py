@@ -22,9 +22,11 @@ class TestUserLogin(unittest.TestCase):
         }
 
         r=requests.request("post",url,params=params)
-        # 设置全局变量
-        test_globle.requestsCookieJar = r.cookies
         self.assertIn("true",r.text) # 断言
+        # 给全局变量cookie 赋值
+        test_globle.requestsCookieJar = r.cookies
+
+
 
 
 
